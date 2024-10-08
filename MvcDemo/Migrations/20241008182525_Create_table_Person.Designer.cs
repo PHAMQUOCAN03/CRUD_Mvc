@@ -10,7 +10,7 @@ using MvcDemo.Data;
 namespace MvcDemo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240927183030_Create_table_Person")]
+    [Migration("20241008182525_Create_table_Person")]
     partial class Create_table_Person
     {
         /// <inheritdoc />

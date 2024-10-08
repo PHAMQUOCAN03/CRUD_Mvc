@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6VefmOlc/Ncy8UWLVQ3wui5Qcs2j9isJtdzi/mcLaQX3IS4I/YP7Vy4NTFfhGXDh353KcHnf+tJi0kXrxeUF9g==",
+  "dgSpecHash": "oHOiIyYhrh9WLKL/ViQucTa/lAKLZ8U4MC/2SRW4PqOpbLQLVSLpHFzRJR8PlNsyYXrCJPB5ds5hgL3gMeKQlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\MvcDemo\\MvcDemo.csproj",
+  "projectFilePath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\CRUD\\CRUD_Mvc\\MvcDemo\\MvcDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Van Ngoc\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Van Ngoc\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

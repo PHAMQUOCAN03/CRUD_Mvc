@@ -9,5 +9,8 @@ public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : ba
 
 }
     public DbSet<Person>Person{get;set;}
+
+    public DbSet<Employee>Employee{get;set;}
+    
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\MvcDemo\\MvcDemo.csproj": {}
+    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\CRUD\\CRUD_Mvc\\MvcDemo\\MvcDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\MvcDemo\\MvcDemo.csproj": {
+    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\CRUD\\CRUD_Mvc\\MvcDemo\\MvcDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\MvcDemo\\MvcDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\CRUD\\CRUD_Mvc\\MvcDemo\\MvcDemo.csproj",
         "projectName": "MvcDemo",
-        "projectPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\MvcDemo\\MvcDemo.csproj",
+        "projectPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\CRUD\\CRUD_Mvc\\MvcDemo\\MvcDemo.csproj",
         "packagesPath": "C:\\Users\\Van Ngoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\MvcDemo\\obj\\",
+        "outputPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\CRUD\\CRUD_Mvc\\MvcDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Van Ngoc\\AppData\\Roaming\\NuGet\\NuGet.Config"
