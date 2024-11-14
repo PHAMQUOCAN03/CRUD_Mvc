@@ -636,7 +636,6 @@ C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\System
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\bin\Debug\net8.0\ar\Humanizer.resources.dll
@@ -827,9 +826,9 @@ C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\static
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\scopedcss\bundle\MvcDemo.styles.css
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\scopedcss\projectbundle\MvcDemo.bundle.scp.css
-C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\MvcDemo.csproj.CopyComplete
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\MvcDemo.dll
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\refint\MvcDemo.dll
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\MvcDemo.pdb
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\MvcDemo.genruntimeconfig.cache
 C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\ref\MvcDemo.dll
+C:\Users\Van Ngoc\OneDrive\Desktop\CRUD\CRUD_Mvc\MvcDemo\obj\Debug\net8.0\MvcDemo.csproj.Up2Date

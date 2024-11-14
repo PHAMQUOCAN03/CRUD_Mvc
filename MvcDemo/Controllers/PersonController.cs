@@ -1,10 +1,7 @@
-using System.Net.Mime;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcDemo.Data;
 using MvcDemo.Models;
@@ -20,11 +17,23 @@ namespace MvcDemo.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        // GET: Person
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Person.ToListAsync());
+            ViewData["CurrentFilter"] = searchString;
+
+            var persons = from p in _context.Person
+                          select p;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                persons = persons.Where(p => p.Fullname.Contains(searchString));
+            }
+
+            return View(await persons.ToListAsync());
         }
 
+        // GET: Person/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -42,11 +51,13 @@ namespace MvcDemo.Controllers
             return View(person);
         }
 
+        // GET: Person/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: Person/Create
         [HttpPost]
         [ValidateAntiForgeryToken]  
         public async Task<IActionResult> Create([Bind("PersonId,Fullname,Address")] Person person)
@@ -60,6 +71,7 @@ namespace MvcDemo.Controllers
             return View(person);
         }
 
+        // GET: Person/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -75,6 +87,7 @@ namespace MvcDemo.Controllers
             return View(person);
         }
 
+        // POST: Person/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("PersonId,Fullname,Address")] Person person)
@@ -107,6 +120,7 @@ namespace MvcDemo.Controllers
             return View(person);
         }
 
+        // GET: Person/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,6 +138,7 @@ namespace MvcDemo.Controllers
             return View(person);
         }
 
+        // POST: Person/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
